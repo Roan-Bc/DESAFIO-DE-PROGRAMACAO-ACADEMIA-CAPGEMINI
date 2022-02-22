@@ -5,7 +5,9 @@
 
 Linguagem de programação utilizada na resolução da questão: JavaScript.
 
+### Testando o programa:
 
 
+![2022-02-21 23-16-40 (1)](https://user-images.githubusercontent.com/56409084/155051097-2c53f32c-614a-4852-b346-f78cb3c89ea2.gif)
 
 
