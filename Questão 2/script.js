@@ -14,16 +14,17 @@ Saída: 3
 
 */
 
-function verificaSenha(string) {
+function verificaSenha() {
 
-    const senha = prompt("Digite a sua Senha");
+    const senha = prompt("Digite a sua Senha"); 
     const tamanho = senha.length;
+   
     let i = 0;
 
-    if (tamanho <= 6) {
-        let minCarac = 6 - tamanho;
-        console.log(minCarac);
-        alert(minCarac);
+    if (tamanho <= 6) {   // Compara se o tamanho da string senha é menor ou = 6.
+        let minCaracteres = 6 - tamanho; // minCaracteres recebe o resultado da subtração de 6 pelo tamanho da string senha. 
+        console.log(minCaracteres); // Exibe em número a unidade de caracteres que falta para ter uma senha segura no console.
+        alert(minCaracteres); // Exibe em número a unidade de caracteres que falta para ter uma senha segura no navegador.
     }
 }
 
